@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Sep 11 15:52:26 2018
+Created on Tue Sep 11 16:41:32 2018
 
 @author: vilson.ferreira
 """
@@ -29,10 +29,10 @@ DadosTeste = DadosModelo[NumTreino:]
 ClassesTeste = ClassesModelo[NumTreino:]
 
 # Treinamento do modelo
-from sklearn import linear_model
+from sklearn import tree
 from sklearn import metrics
 
-Modelo = linear_model.LogisticRegression(penalty="l2")
+Modelo = tree.DecisionTreeRegressor()
 Modelo.fit(DadosTreino, ClassesTreino)
 
 # Teste do modelo
