@@ -1,5 +1,5 @@
 # Totvs Labs - Data Challenge
-Desafio realizado para a oportunidade da Totvs Labs, realizando previsão de churn de clientes.
+Desafio realizado para a Totvs Labs, realizando previsão de churn de clientes.
 
 Aplicações:
 - Análise Exploratória de Dados.
